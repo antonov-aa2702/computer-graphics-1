@@ -29,7 +29,6 @@ def draw_circle(canvas, x0, y0, radius, color):
             x -= 1
             err += 2 * (y - x) + 1
 
-put_pixel(canvas, 10, 10, 'red')
 draw_circle(canvas, 200, 200, 70, 'red')
 
 root.mainloop()
